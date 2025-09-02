@@ -545,3 +545,8 @@ span {
 span h5 :hover {
   color: #fc6060;
 }
+.icons i {
+  color: white;
+  margin-left: 56px;
+  cursor: pointer;
+}
