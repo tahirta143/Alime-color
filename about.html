@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alime</title>
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="main-nav">
+      <ul>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li>
+          <a href="#">Pages ▾</a>
+          <ul class="dropdown">
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Blog Details</a></li>
+            <li><a href="#">Contact</a></li>
+            <li>
+              <a href="#">Dropdown ▸</a>
+              <ul class="dropdown dropdown-right">
+                <li><a href="#">Dropdown 1</a></li>
+                <li><a href="#">Dropdown 2</a></li>
+                <li><a href="#">Dropdown 3</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="search">
+          <a href="#"><i class="fa fa-search"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="img2">
+      <div class="logo">
+        <h1 class="text">
+          <a href="#" class="scroll"
+            ><span
+              ><img
+                src="public\12_files\logo.png"
+                alt=""
+                style="margin-top: 20px" /></span
+          ></a>
+        </h1>
+      </div>
+      <div class="content2">
+        <h1><b>About us </b></h1>
+
+        <span>
+          <a href="index.html"
+            ><i class="fa fa-home"></i><button>Home</button> </a
+          ><i class="fa fa-arrow-right"></i>
+          <h4 style="margin-left: 100px">About us</h4>
+        </span>
+      </div>
+    </div>
+
+    <div
+      class="about"
+      style="
+        width: 100%;
+        height: 600px;
+        display: flex;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      "
+    >
+      <div class="about2">
+        <h1>We Live For Passion</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          <br />
+          eiusmod tempor incididunt ut labore et do sunt explicabo. Nemo <br />
+          enim ipsam et dolore magnam aliquam quaerat voluptatem. <br />
+          <br />
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          <br />
+          eiusmod tempor incididunt ut labore et do sunt explicabo. Nemo <br />
+          enim ipsam et dolore magnam aliquam quaerat voluptatem.
+        </p>
+        <button class="btn">contact us</button>
+      </div>
+      <div>
+        <div
+          class="video-wrapper"
+          style="
+            width: 500px;
+            height: 400px;
+            margin-top: 90px;
+            margin-left: 50px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+          "
+        >
+          <img
+            src="public\12_files\36.jpg"
+            alt=""
+            width="100%"
+            height="100%"
+            style="border-radius: 10px"
+          />
+          <button class="play-btn" onclick="togglePlay() ">▶</button>
+        </div>
+      </div>
+    </div>
+    <div
+      style="
+        width: 100%;
+        height: 50px;
+        padding: 40px;
+        margin-top: 20px;
+        justify-items: center;
+      "
+    >
+      <h1>Why we chose</h1>
+    </div>
+    <div
+      style="display: flex; width: 100%; height: 500px; justify-content: center"
+    >
+      <div class="cards">
+        <div class="icon">
+          <img
+            src="public\img icon.jpg"
+            alt=""
+            width="50px"
+            height="50px"
+            style="border-radius: 12px"
+          />
+        </div>
+
+        <h1
+          style="
+            font-size: 20px;
+            margin-left: 30px;
+
+            padding-left: 25px;
+            padding-top: 50px;
+          "
+        >
+          High Quality Images
+        </h1>
+
+        <p style="margin-right: 15px; color: black">
+          Lorem ipsum dolor sit amet, consectetur isicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut elit, sed do
+          eiusmod te
+        </p>
+      </div>
+
+      <div class="cards">
+        <div class="icon">
+          <i
+            class="fas fa-pen-to-square"
+            style="font-size: 30px; padding: 10px"
+          ></i>
+        </div>
+        <h1
+          style="
+            font-size: 20px;
+            margin-left: 30px;
+
+            padding-left: 25px;
+            padding-top: 50px;
+          "
+        >
+          Abundant Experience
+        </h1>
+
+        <p style="margin-right: 15px; color: black">
+          Lorem ipsum dolor sit amet, consectetur isicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut elit, sed do
+          eiusmod te
+        </p>
+      </div>
+      <div class="cards">
+        <div class="icon">
+          <i class="fas fa-camera" style="font-size: 40px; padding: 5px"></i>
+        </div>
+
+        <h1
+          style="
+            font-size: 20px;
+            margin-left: 30px;
+
+            padding-left: 25px;
+            padding-top: 50px;
+          "
+        >
+          Modern Equipments
+        </h1>
+
+        <p style="margin-right: 15px; color: black">
+          Lorem ipsum dolor sit amet, consectetur isicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut elit, sed do
+          eiusmod te
+        </p>
+      </div>
+    </div>
+    <div style="justify-items: center"><h1>Our Team</h1></div>
+    <div
+      style="width: 100%; height: 500px; display: flex; justify-content: center"
+    >
+      <div
+        style="
+          width: 100%;
+          height: 600px;
+          display: flex;
+          justify-content: center;
+        "
+      >
+        <div class="card2">
+          <img
+            src="public\12_files\6.jpg"
+            alt=""
+            style="
+              width: 120px;
+              height: 120px;
+              border-radius: 78px;
+              margin-left: 65px;
+              margin-top: 30px;
+            "
+          />
+          <h1 style="font-size: 23px; margin-left: 50px; margin-top: 60px">
+            Andrew Dean
+          </h1>
+          <h4 style="margin-left: 65px; color: #fc6060">Photographer</h4>
+          <span class="social">
+            <i class="fab fa-facebook-f"></i> <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-pinterest-p"></i>
+          </span>
+        </div>
+      </div>
+      <div
+        style="
+          width: 100%;
+          height: 600px;
+          display: flex;
+          justify-content: center;
+        "
+      >
+        <div class="card2">
+          <img
+            src="public\12_files\13.jpg"
+            alt=""
+            style="
+              width: 120px;
+              height: 120px;
+              border-radius: 78px;
+              margin-left: 65px;
+              margin-top: 30px;
+            "
+          />
+          <h1 style="font-size: 23px; margin-left: 50px; margin-top: 60px">
+            Tommy Kim
+          </h1>
+          <h4 style="margin-left: 65px; color: #fc6060">Photographer</h4>
+          <span class="social">
+            <i class="fab fa-facebook-f"></i> <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-pinterest-p"></i>
+          </span>
+        </div>
+      </div>
+      <div
+        style="
+          width: 100%;
+          height: 600px;
+          display: flex;
+          justify-content: center;
+        "
+      >
+        <div class="card2">
+          <img
+            src="public\12_files\7.jpg"
+            alt=""
+            style="
+              width: 120px;
+              height: 120px;
+              border-radius: 78px;
+              margin-left: 65px;
+              margin-top: 30px;
+            "
+          />
+          <h1 style="font-size: 23px; margin-left: 50px; margin-top: 60px">
+            Max McCormick
+          </h1>
+          <h4 style="margin-left: 65px; color: #fc6060">Photographer</h4>
+          <span class="social">
+            <i class="fab fa-facebook-f"></i> <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-pinterest-p"></i>
+          </span>
+        </div>
+      </div>
+      <div
+        style="
+          width: 100%;
+          height: 600px;
+          display: flex;
+          justify-content: center;
+        "
+      >
+        <div class="card2">
+          <img
+            src="public\12_files\14.jpg"
+            alt=""
+            style="
+              width: 120px;
+              height: 120px;
+              border-radius: 78px;
+              margin-left: 65px;
+              margin-top: 30px;
+            "
+          />
+          <h1 style="font-size: 23px; margin-left: 50px; margin-top: 60px">
+            Robert Ward
+          </h1>
+          <h4 style="margin-left: 65px; color: #fc6060">Photographer</h4>
+          <span class="social">
+            <i class="fab fa-facebook-f"></i> <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-pinterest-p"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="insta">
+      <h1>Follow Instagram</h1>
+      <h5>@Alime_photographer</h5>
+      <div class="container7">
+        <div class="auto-scrol-track">
+          <div class="image-wrapper1">
+            <img src="public\12_files\14.jpg" alt="" />
+            <button class="icon-btn">
+              <i class="fa fa-plus"></i>
+            </button>
+          </div>
+          <div class="image-wrapper1">
+            <img src="public\12_files\15.jpg" alt="" />
+          </div>
+          <div class="image-wrapper1">
+            <img src="public\12_files\16.jpg" alt="" />
+          </div>
+          <div class="image-wrapper1">
+            <img src="public\12_files\11.jpg" alt="" />
+          </div>
+          <div class="image-wrapper1">
+            <img src="public\12_files\5.jpg" alt="" />
+          </div>
+          <div class="image-wrapper1">
+            <img src="public\12_files\13.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="fotter">
+        <span style="color: black">
+          Copyright ©2025 All rights reserved | This template is made with by
+          <button>Colorlib</button>
+        </span>
+        <h1 class="text">Alime.</h1>
+        <span style="color: black">
+          <i class="fab fa-facebook-f"></i> <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-pinterest-p"></i>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
