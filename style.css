@@ -325,19 +325,24 @@ p {
   overflow: hidden;
   white-space: nowrap;
   gap: 4px;
+  width: 100%;
 }
+
 .container7 .image-wrapper1 {
   flex: 0 0 auto;
 }
+
 .container7 img {
   width: 220px;
   height: 200px;
 }
+
 .auto-scrol-track {
   display: flex;
   gap: 4px;
-  animation: scroll-left 15s linear infinite;
+  animation: scroll-left 20s linear infinite;
 }
+
 @keyframes scroll-left {
   from {
     transform: translateX(0);
